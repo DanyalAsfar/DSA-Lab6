@@ -1,0 +1,6 @@
+Github Link: https://github.com/DanyalAsfar/DSA-Lab6.git
+
+Task 6 end explaination:
+Insertions are locked on a linear queue when the rear has reached the end (position/index 4
+in this case) even if space has been freed up from the front.
+This is because the queue does not wrap around (which is a circular queue).
